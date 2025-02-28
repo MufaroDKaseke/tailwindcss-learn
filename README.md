@@ -33,7 +33,7 @@ To add Tailwind CSS to your project, follow these steps:
   ```
 
 4. **Add Tailwind directives to your CSS:**
-  Create a CSS file (e.g., `styles.css`) and add the following directives:
+  Create a CSS file (e.g., `style.css`) and add the following directives:
   ```css
   @tailwind base;
   @tailwind components;
@@ -43,12 +43,11 @@ To add Tailwind CSS to your project, follow these steps:
 5. **Build your CSS:**
   Use the Tailwind CLI tool to process your CSS file:
   ```bash
-  npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch
+  npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
   ```
 
 6. **Include the generated CSS in your HTML:**
   Add a link to the generated CSS file in your HTML:
-  ```html
   ```html
   <!DOCTYPE html>
   <html lang="en">
@@ -65,5 +64,4 @@ To add Tailwind CSS to your project, follow these steps:
     </div>
   </body>
   </html>
-  ```
   ```
